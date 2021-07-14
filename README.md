@@ -19,7 +19,7 @@ The names of the cities in the code will be just like on the map, with no spaces
 Spelling must be observed to avoid compilation errors.
 
 
-## המחלות
+## DISEASES
 There are diseases of four colors - blue, yellow, black and red.
 Each city may have "disease cubes" in a color appropriate to that city.
 
