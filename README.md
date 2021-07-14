@@ -28,7 +28,7 @@ In the "Board" department, the following methods must be implemented:
 for example:
 `board [City :: HongKong] = 2`
 Puts two red disease cubes in Hong Kong.
-* Output operator - Displays the status of the board in any format of your choice. The board mode includes:
+* Output operator - Displays the status of the board in any format. The board mode includes:
    * The level of the disease in each of the cities;
    * The drugs discovered so far (see explanation below);
    * Research stations built so far (see explanation below).
