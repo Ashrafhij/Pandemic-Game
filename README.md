@@ -44,13 +44,13 @@ In each turn, he can perform one of the following actions (see example files):
 
 1. Drive - `move` - move from the current city to a nearby city (according to the context map).
 2. Direct flight - `fly_direct` - transfer from the current city to the city of any card in his hand. To do this, throw the appropriate card to the city you are flying to.
-Franchise flight - `fly_charter` - transfer from the current city to any city. To do this, throw the appropriate card to the city * that is in it *.
-3. Fly_shuttle - If there is a research station in the current city, you can fly to any other city that has a research station. 
-4. Construction - `build` - construction of a research station in the city in which they are located. To do this you have to throw the appropriate card to the city you are in.
+3.fly_charter - `fly_charter` - transfer from the current city to any city. To do this, throw the appropriate card to the city * that is in it *.
+4. Fly_shuttle - If there is a research station in the current city, you can fly to any other city that has a research station. 
+5. Construction - `build` - construction of a research station in the city in which they are located. To do this you have to throw the appropriate card to the city you are in.
    * Each city can have at most one research station. If there is already a research station in the current city, and a "construction" operation is performed again, there is no need to throw an exception, and the card remains in the player's hands.
-5. Discover_cure - Discovering a cure for a disease of a certain color. To do this, you must be in a city that has a research station, and throw 5 colored cards of the disease. The color of the city they are in does not matter.
+6. Discover_cure - Discovering a cure for a disease of a certain color. To do this, you must be in a city that has a research station, and throw 5 colored cards of the disease. The color of the city they are in does not matter.
    * Each disease has one cure. If a cure for the disease has already been discovered, and a "cure detection" operation for the same disease is performed again, there is no need to discard an exception, and the cards remain in the player's hands.
-6. Treatment - "treat" - lowering one disease cube from the city in which it is located (reducing the level of the disease by 1).
+7. Treatment - "treat" - lowering one disease cube from the city in which it is located (reducing the level of the disease by 1).
    * If a cure for the disease has already been discovered in the color of the city, then the action of "cure the disease" removes all the disease cubes from the city that are in it (reducing the level of the disease to 0).
    * If there is no infection at all in the city (the level of the disease is 0), then the action will throw an exception.
 
