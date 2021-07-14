@@ -6,7 +6,7 @@
 ## BOARD
 The game board is a map of the world, with 48 cities.
 Some of the cities are connected by a line that allows you to travel between them. 
-You can see the list of cities and their connections in this [pandemic_map.jpg]picture.
+You can see the list of cities and their connections in this [picture](pandemic_map.jpg).
 The cities are divided into four colors - blue, yellow, black and red - 12 cities of each color.
 `Board`.
 
