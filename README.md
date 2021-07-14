@@ -23,7 +23,7 @@ Spelling must be observed to avoid compilation errors.
 There are diseases of four colors - blue, yellow, black and red.
 Each city may have "disease cubes" in a color appropriate to that city.
 
-In the "Board" department, the following methods must be implemented (see example files):
+In the "Board" department, the following methods must be implemented:
 * Square bracket operator [] - accepts as city-ID parameter, and allows to read and update the level of disease (= number of disease cubes) in that city.
 for example:
 `board [City :: HongKong] = 2`
