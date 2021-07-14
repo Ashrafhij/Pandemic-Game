@@ -44,7 +44,7 @@ In each turn, he can perform one of the following actions (see example files):
 
 1. Drive - `move` - move from the current city to a nearby city (according to the context map).
 2. Direct flight - `fly_direct` - transfer from the current city to the city of any card in his hand. To do this, throw the appropriate card to the city you are flying to.
-3.fly_charter - `fly_charter` - transfer from the current city to any city. To do this, throw the appropriate card to the city * that is in it *.
+3. fly_charter - `fly_charter` - transfer from the current city to any city. To do this, throw the appropriate card to the city * that is in it *.
 4. Fly_shuttle - If there is a research station in the current city, you can fly to any other city that has a research station. 
 5. Construction - `build` - construction of a research station in the city in which they are located. To do this you have to throw the appropriate card to the city you are in.
    * Each city can have at most one research station. If there is already a research station in the current city, and a "construction" operation is performed again, there is no need to throw an exception, and the card remains in the player's hands.
