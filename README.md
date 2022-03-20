@@ -80,6 +80,3 @@ There are different roles of players, who have special skills (the skills are si
 6. Virologist - `Virologist`: can perform a" disease treatment "operation, not only in the city in which it is located, but in any city in the world - by throwing a card of that city.
 7. GeneSplicer - can perform a "drug discovery" operation with the help of 5 cards - not necessarily from the color of the disease.
 Field Physician - `FieldDoctor`: Can perform a" disease treatment "operation not only in the city he is in but in any city near the city he is in (according to the context map), without throwing a city card.
-
-In step B you must write a full exercise that passes all the tests.
-Write all the necessary files so that the following commands work without errors:
